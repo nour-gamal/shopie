@@ -1,0 +1,25 @@
+* ::after,
+::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 400;
+}
+a,
+a:hover {
+	text-decoration: none;
+	transition: all 0.4 ease-in-out;
+}
