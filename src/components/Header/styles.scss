@@ -2,4 +2,18 @@
 	height: 6.5rem;
 	box-shadow: 0 1px 20px 4px rgba($color: #000000, $alpha: 0.5);
 	background-color: #212121;
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.callsToActions {
+	color: #eee;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
 }
