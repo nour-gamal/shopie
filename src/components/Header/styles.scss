@@ -7,13 +7,19 @@
 	padding-right: 5%;
 }
 .callsToActions {
-	color: #eee;
 	text-transform: uppercase;
 	position: absolute;
 	top: 50%;
-	right: 5%;
-	transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
+	right: 10px;
+	transform: translate(-10px, -50%);
+	a {
+		padding: 5px 10px;
+		border: 1px solid #eee;
+		color: #eee;
+		margin: 0 10px;
+		&:hover {
+			background-color: #eee;
+			color: #212121;
+		}
+	}
 }
