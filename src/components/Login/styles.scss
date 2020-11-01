@@ -1,0 +1,19 @@
+.loginForm {
+	text-align: center;
+	padding: 20px;
+	border: 2px solid #000;
+	width: 400px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	button {
+		background-color: black;
+		color: #eee;
+		padding: 10px 0;
+		border: 1px solid #eee;
+		text-transform: uppercase;
+		width: 100%;
+	}
+}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles.scss";
-class Registration extends Component {
-	render() {
+class RegistrationPage extends Component {
+	render(props) {
 		return (
 			<div>
 				<h1>Registration Page</h1>
@@ -10,4 +10,4 @@ class Registration extends Component {
 	}
 }
 
-export default Registration;
+export default RegistrationPage;

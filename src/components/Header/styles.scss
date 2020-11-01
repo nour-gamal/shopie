@@ -13,13 +13,14 @@
 	right: 10px;
 	transform: translate(-10px, -50%);
 	a {
-		padding: 5px 10px;
-		border: 1px solid #eee;
-		color: #eee;
+		color: #ccc;
 		margin: 0 10px;
+		transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
 		&:hover {
-			background-color: #eee;
-			color: #212121;
+			color: #fff;
 		}
 	}
 }
